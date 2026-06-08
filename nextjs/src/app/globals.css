@@ -1,0 +1,6 @@
+/* Reset file - global styles are loaded dynamically from original assets */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

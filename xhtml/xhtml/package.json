@@ -1,0 +1,33 @@
+{
+  "name": "GXON | HR Management Admin Dashboard Template + RTL",
+  "version": "1.5.0",
+  "description": "GXON is a professional and modern HR Management Admin Dashboard Template built with Bootstrap. It includes light and dark modes, and is ideal for managing employees, attendance, payroll, recruitment, and more — perfect for HR software and admin panels.",
+  "main": "src/index.html",
+  "scripts": {
+    "sass": "sass --watch src/assets/scss/main.scss src/assets/css/styles.css",
+    "rtl": "rtlcss src/assets/css/styles.css src/assets/css/styles-rtl.css"
+  },
+  "keywords": [
+    "hr management",
+    "hr dashboard",
+    "admin template",
+    "admin dashboard",
+    "bootstrap admin",
+    "hr admin panel",
+    "employee management",
+    "human resources dashboard",
+    "responsive admin template",
+    "web app dashboard",
+    "hrms admin",
+    "staff management",
+    "dashboard, bootstrap",
+    "modern admin",
+    "rtl dashboard"
+  ],
+  "author": "layoutdrop",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.90.0",
+	"rtlcss": "^4.3.0"
+  }
+}
