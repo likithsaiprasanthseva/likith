@@ -1027,7 +1027,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="card">
-                <div className="card-body gradient-layer" style={{height: "325px"}} data-simplebar>
+                <div className="card-body gradient-layer" style={{ height: "325px" }} data-simplebar>
                   <div className="p-3 bg-light bg-opacity-50 mb-2 rounded">
                     <div className="d-flex align-items-center justify-content-between">
                       <h6 className="mb-0">Team Stand Up</h6>
@@ -1492,7 +1492,7 @@ export default function Page() {
                   </button>
                 </div>
               </div>
-              <div className="card-body pb-1 px-2 pt-3 overflow-auto" style={{height: "325px"}} data-simplebar>
+              <div className="card-body pb-1 px-2 pt-3 overflow-auto" style={{ height: "325px" }} data-simplebar>
                 <ul id="todoList" className="list-group list-group-smooth list-group-unlined todo-nav">
                   <li className="list-group-item d-flex gap-2 align-items-center todo-item mb-1 ps-3 pe-2 py-2">
                     <span className="sortable-handle">
@@ -1712,7 +1712,7 @@ export default function Page() {
 
       </div>
 
-    
+
     </>
   );
 }
