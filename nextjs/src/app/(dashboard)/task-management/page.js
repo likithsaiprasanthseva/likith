@@ -49,10 +49,10 @@ export default function Page() {
         <div className="card d-flex flex-row flex-wrap align-items-center h-auto mb-5">
           <ul className="nav nav-underline me-auto px-3 gap-2">
             <li className="nav-item">
-              <a className="nav-link border-3 py-3 px-2 active" href="javascript:void(0);">Overview</a>
+              <a className="nav-link border-3 py-3 px-2 active" href="javascript:void(0)">Overview</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link border-3 py-3 px-2" href="javascript:void(0);">Timeline</a>
+              <a className="nav-link border-3 py-3 px-2" href="javascript:void(0)">Timeline</a>
             </li>
             <li className="nav-item">
               <a className="nav-link border-3 py-3 px-2" href="/calendar">Calendar</a>
@@ -93,10 +93,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Add</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                     </ul>
                   </div>
@@ -116,10 +116,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -143,9 +143,9 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-primary-subtle text-primary border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-primary-subtle text-primary border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -155,16 +155,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -184,10 +184,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -211,15 +211,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-primary-subtle text-primary border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-primary-subtle text-primary border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -229,16 +229,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -258,10 +258,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -285,15 +285,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-primary-subtle text-primary border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-primary-subtle text-primary border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -303,16 +303,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -337,10 +337,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Add</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                     </ul>
                   </div>
@@ -360,10 +360,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -387,12 +387,12 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-info-subtle text-info border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-info-subtle text-info border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -402,16 +402,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info" data-selected="true">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info" data-selected="true">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -431,10 +431,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -458,15 +458,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-info-subtle text-info border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-info-subtle text-info border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -476,16 +476,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info" data-selected="true">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info" data-selected="true">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -505,10 +505,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -531,15 +531,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-info-subtle text-info border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-info-subtle text-info border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -549,16 +549,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info" data-selected="true">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info" data-selected="true">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -583,10 +583,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Add</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                     </ul>
                   </div>
@@ -606,10 +606,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -633,15 +633,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-secondary-subtle text-secondary border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-secondary-subtle text-secondary border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -651,16 +651,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -680,10 +680,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -707,12 +707,12 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-secondary-subtle text-secondary border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-secondary-subtle text-secondary border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -722,16 +722,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -751,10 +751,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -778,15 +778,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-secondary-subtle text-secondary border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-secondary-subtle text-secondary border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -796,16 +796,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -830,10 +830,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Add</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                     </ul>
                   </div>
@@ -853,10 +853,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -880,15 +880,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-success-subtle text-success border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-success-subtle text-success border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -898,16 +898,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success" data-selected="true">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success" data-selected="true">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -927,10 +927,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -954,15 +954,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-success-subtle text-success border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-success-subtle text-success border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -972,16 +972,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success" data-selected="true">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success" data-selected="true">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -1001,10 +1001,10 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Add</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Add</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                            <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                           </li>
                         </ul>
                       </div>
@@ -1028,15 +1028,15 @@ export default function Page() {
                     <div className="d-flex gap-2 justify-content-between">
                       <div className="avatar-group">
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
                         <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                          <img src="assets/images/avatar/avatar5.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar5.webp" alt="" />
                         </div>
-                        <a href="javascript:void(0);" className="avatar avatar-xs rounded-circle bg-success-subtle text-success border border-2 border-white">
+                        <a href="javascript:void(0)" className="avatar avatar-xs rounded-circle bg-success-subtle text-success border border-2 border-white">
                           <i className="fi fi-rr-plus text-2xs"></i>
                         </a>
                       </div>
@@ -1046,16 +1046,16 @@ export default function Page() {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">New</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">New</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-info">In Progress</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-info">In Progress</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Pending</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Pending</a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-success" data-selected="true">Done</a>
+                            <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-success" data-selected="true">Done</a>
                           </li>
                         </ul>
                       </div>
@@ -1068,7 +1068,7 @@ export default function Page() {
 
         </div>
 
-        <div className="modal fade" id="addTaskModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="addTaskModal" tabIndex="-1" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header py-3">
@@ -1084,8 +1084,8 @@ export default function Page() {
                   <div className="row">
                     <div className="col-md-6 mb-3">
                       <label htmlFor="assignedTo" className="form-label">Assign To</label>
-                      <select className="form-select" id="assignedTo">
-                        <option selected disabled>Select Employee</option>
+                      <select defaultValue="Select Employee" className="form-select" id="assignedTo">
+                        <option disabled>Select Employee</option>
                         <option>John Doe</option>
                         <option>Jane Smith</option>
                         <option>David Miller</option>

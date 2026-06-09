@@ -83,7 +83,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="modal fade" id="modalAddEvent" tabindex="-1" aria-labelledby="modalAddEventLabel" aria-hidden="true">
+            <div className="modal fade" id="modalAddEvent" tabIndex="-1" aria-labelledby="modalAddEventLabel" aria-hidden="true">
               <div className="modal-dialog modal-dialog-centered">
                 <div className="modal-content">
                   <div className="modal-header">
@@ -138,7 +138,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="modal fade" id="eventDetailsModal" tabindex="-1" aria-hidden="true">
+            <div className="modal fade" id="eventDetailsModal" tabIndex="-1" aria-hidden="true">
               <div className="modal-dialog modal-dialog-centered">
                 <div className="modal-content">
                   <div className="modal-header">

@@ -151,7 +151,7 @@ export default function Page() {
                     <h5 className="mb-3">Notifications</h5>
                     <form>
                       <div className="form-check mb-2">
-                        <input className="form-check-input" type="checkbox" id="emailNoti" checked />
+                        <input className="form-check-input" type="checkbox" id="emailNoti" defaultChecked />
                         <label className="form-check-label" htmlFor="emailNoti">Email Notifications</label>
                       </div>
                       <div className="form-check mb-2">

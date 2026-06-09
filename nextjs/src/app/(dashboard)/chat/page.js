@@ -47,9 +47,9 @@ export default function Page() {
                   </button>
                 </div>
                 <div className="chat-nav" id="myTab" role="tablist" data-simplebar>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle avatar-status-success">
-                      <img src="assets/images/avatar/vector/avatar1.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar1.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -62,9 +62,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item active">
+                  <a href="javascript:void(0)" className="chat-nav-item active">
                     <div className="avatar rounded-circle avatar-status-success">
-                      <img src="assets/images/avatar/vector/avatar2.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar2.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -77,9 +77,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle avatar-status-danger">
-                      <img src="assets/images/avatar/vector/avatar3.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar3.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -91,9 +91,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle avatar-status-danger">
-                      <img src="assets/images/avatar/vector/avatar4.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar4.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -105,9 +105,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar5.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar5.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -119,9 +119,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar1.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar1.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -134,9 +134,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar2.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar2.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -148,9 +148,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar3.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar3.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -162,9 +162,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar4.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar4.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -176,9 +176,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar5.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar5.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -190,9 +190,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar2.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar2.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -204,9 +204,9 @@ export default function Page() {
                       </div>
                     </div>
                   </a>
-                  <a href="javascript:void(0);" className="chat-nav-item">
+                  <a href="javascript:void(0)" className="chat-nav-item">
                     <div className="avatar rounded-circle">
-                      <img src="assets/images/avatar/vector/avatar3.webp" alt="" />
+                      <img src="/assets/images/avatar/vector/avatar3.webp" alt="" />
                     </div>
                     <div className="chat-avatar-info">
                       <div className="clearfix">
@@ -229,9 +229,9 @@ export default function Page() {
                     >
                       <i className="fi fi-rs-list"></i>
                     </button>
-                    <a href="javascript:void(0);" className="chat-nav-item">
+                    <a href="javascript:void(0)" className="chat-nav-item">
                       <div className="avatar rounded-circle avatar-status-success">
-                        <img src="assets/images/avatar/vector/avatar2.webp" alt="" />
+                        <img src="/assets/images/avatar/vector/avatar2.webp" alt="" />
                       </div>
                       <div className="chat-avatar-info">
                         <div className="clearfix">
@@ -242,10 +242,10 @@ export default function Page() {
                     </a>
                   </div>
                   <div className="clearfix">
-                    <a href="javascript:void(0);" className="btn btn-white text-success btn-shadow btn-icon waves-effect me-1 d-none d-sm-inline-flex">
+                    <a href="javascript:void(0)" className="btn btn-white text-success btn-shadow btn-icon waves-effect me-1 d-none d-sm-inline-flex">
                       <i className="fi fi-rr-phone-flip"></i>
                     </a>
-                    <a href="javascript:void(0);" className="btn btn-white text-danger btn-shadow btn-icon waves-effect me-1 d-none d-sm-inline-flex">
+                    <a href="javascript:void(0)" className="btn btn-white text-danger btn-shadow btn-icon waves-effect me-1 d-none d-sm-inline-flex">
                       <i className="fi fi-rr-video-camera-alt"></i>
                     </a>
                     <div className="btn-group">
@@ -254,13 +254,13 @@ export default function Page() {
                       </button>
                       <ul className="dropdown-menu dropdown-menu-end">
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);">View Contact</a>
+                          <a className="dropdown-item" href="javascript:void(0)">View Contact</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);">Block Contact</a>
+                          <a className="dropdown-item" href="javascript:void(0)">Block Contact</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);">Report</a>
+                          <a className="dropdown-item" href="javascript:void(0)">Report</a>
                         </li>
                       </ul>
                     </div>

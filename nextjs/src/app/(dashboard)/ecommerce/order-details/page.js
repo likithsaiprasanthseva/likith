@@ -147,7 +147,7 @@ export default function OrderDetailsPage() {
                   <div className="d-flex flex-wrap gap-3 align-items-center justify-content-between">
                     <div className="clearfix">
                       <div className="d-flex gap-2 mb-2 align-items-center">
-                        <h6 class="card-title mb-0">
+                        <h6 className="card-title mb-0">
                           Order No <span className="text-primary">#0255760</span>
                         </h6>
                         <span className={`badge badge-sm ${orderStatus === "In Progress" ? "text-bg-warning" : "text-bg-success"}`}>
@@ -431,7 +431,7 @@ export default function OrderDetailsPage() {
                       Discount: <span className="text-body">-$120.00</span>
                     </li>
                     <li className="list-group-item d-flex align-items-center justify-content-between px-0">
-                      Delivery Charge: <span class="text-body">$15.00</span>
+                      Delivery Charge: <span className="text-body">$15.00</span>
                     </li>
                     <li className="list-group-item d-flex align-items-center justify-content-between px-0">
                       Estimated Tax (10%): <span className="text-body">$84.50</span>

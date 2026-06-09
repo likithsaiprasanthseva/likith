@@ -176,7 +176,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">James Anderson</div>
                         </div>
@@ -198,10 +198,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -216,7 +216,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">William Johnson</div>
                         </div>
@@ -238,10 +238,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -256,7 +256,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Benjamin Martinez</div>
                         </div>
@@ -278,10 +278,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -296,7 +296,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Michael Davis</div>
                         </div>
@@ -318,10 +318,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -336,7 +336,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar5.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar5.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Matthew Taylor</div>
                         </div>
@@ -358,10 +358,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -376,7 +376,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">David Wilson</div>
                         </div>
@@ -398,10 +398,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -416,7 +416,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Anthony Thomas</div>
                         </div>
@@ -438,10 +438,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -456,7 +456,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Christopher Moore</div>
                         </div>
@@ -478,10 +478,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -496,7 +496,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Emma Smith</div>
                         </div>
@@ -518,10 +518,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -536,7 +536,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">James Anderson</div>
                         </div>
@@ -558,10 +558,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -576,7 +576,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">James Anderson</div>
                         </div>
@@ -598,10 +598,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -616,7 +616,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">William Johnson</div>
                         </div>
@@ -638,10 +638,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -656,7 +656,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Benjamin Martinez</div>
                         </div>
@@ -678,10 +678,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -696,7 +696,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Michael Davis</div>
                         </div>
@@ -718,10 +718,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -736,7 +736,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar5.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar5.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Matthew Taylor</div>
                         </div>
@@ -758,10 +758,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -776,7 +776,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">David Wilson</div>
                         </div>
@@ -798,10 +798,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -816,7 +816,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Anthony Thomas</div>
                         </div>
@@ -838,10 +838,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -856,7 +856,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Christopher Moore</div>
                         </div>
@@ -878,10 +878,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -896,7 +896,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">Emma Smith</div>
                         </div>
@@ -918,10 +918,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -936,7 +936,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xxs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">James Anderson</div>
                         </div>
@@ -958,10 +958,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -975,7 +975,7 @@ export default function Page() {
 
         </div>
 
-        <div className="modal fade" id="addPayrollModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="addPayrollModal" tabIndex="-1" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header py-3">

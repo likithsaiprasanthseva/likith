@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         {/* begin::GXON CSS Stylesheets */}
         <link rel="stylesheet" href="/assets/libs/flatpickr/flatpickr.min.css" />
         <link rel="stylesheet" href="/assets/libs/datatables/datatables.min.css" />
-        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="/assets/css/styles.css" id="gxon-main-stylesheet" />
         {/* end::GXON CSS Stylesheets */}
       </head>
       <body>
@@ -37,11 +37,11 @@ export default function RootLayout({ children }) {
 
         {/* begin::Required Scripts loaded globally */}
         <Script src="/assets/libs/global/global.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/libs/sortable/Sortable.min.js" strategy="lazyOnload" />
-        <Script src="/assets/libs/chartjs/chart.js" strategy="lazyOnload" />
-        <Script src="/assets/libs/flatpickr/flatpickr.min.js" strategy="lazyOnload" />
-        <Script src="/assets/libs/apexcharts/apexcharts.min.js" strategy="lazyOnload" />
-        <Script src="/assets/libs/datatables/datatables.min.js" strategy="lazyOnload" />
+        <Script src="/assets/libs/sortable/Sortable.min.js" strategy="afterInteractive" />
+        <Script src="/assets/libs/chartjs/chart.js" strategy="afterInteractive" />
+        <Script src="/assets/libs/flatpickr/flatpickr.min.js" strategy="afterInteractive" />
+        <Script src="/assets/libs/apexcharts/apexcharts.min.js" strategy="afterInteractive" />
+        <Script src="/assets/libs/datatables/datatables.min.js" strategy="afterInteractive" />
         {/* end::Required Scripts */}
       </body>
     </html>

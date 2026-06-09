@@ -251,7 +251,7 @@ export default function Page() {
     visibleMails.length > 0 &&
     visibleMails.every(mail => checkedIds.includes(mail.id));
 
-  // Move checked items to trash, or delete permanently if already in trash
+  // Move defaultChecked items to trash, or delete permanently if already in trash
   const deleteCheckedMails = () => {
     if (checkedIds.length === 0) return;
     setMails(prev =>
@@ -269,7 +269,7 @@ export default function Page() {
     setCheckedIds([]);
   };
 
-  // Archive checked items
+  // Archive defaultChecked items
   const archiveCheckedMails = () => {
     if (checkedIds.length === 0) return;
     setMails(prev =>

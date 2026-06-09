@@ -53,7 +53,7 @@ export default function Page() {
             <div className="card">
               <div className="card-header d-flex align-items-center justify-content-between border-0 pb-0">
                 <h6 className="card-title mb-0">Attendance Rate</h6>
-                <a href="javascript:void(0);" className="btn btn-sm btn-outline-light waves-effect btn-shadow">Download Report</a>
+                <a href="javascript:void(0)" className="btn btn-sm btn-outline-light waves-effect btn-shadow">Download Report</a>
               </div>
               <div className="card-body px-1 py-2">
                 <div id="chartAttendanceRate"></div>
@@ -71,13 +71,13 @@ export default function Page() {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-end">
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Onsite</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Onsite</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Remote</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Remote</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Hybrid</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Hybrid</a>
                     </li>
                   </ul>
                 </div>
@@ -165,7 +165,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">James Anderson</h6>
@@ -273,7 +273,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">William Johnson</h6>
@@ -381,7 +381,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Benjamin Martinez</h6>
@@ -489,7 +489,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Michael Davis</h6>
@@ -597,7 +597,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar5.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar5.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Matthew Taylor</h6>
@@ -705,7 +705,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">David Wilson</h6>
@@ -813,7 +813,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Anthony Thomas</h6>
@@ -921,7 +921,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Christopher Moore</h6>
@@ -1029,7 +1029,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Emma Smith</h6>
@@ -1137,7 +1137,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">James Anderson</h6>
@@ -1245,7 +1245,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">William Johnson</h6>
@@ -1353,7 +1353,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Benjamin Martinez</h6>
@@ -1461,7 +1461,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Michael Davis</h6>
@@ -1569,7 +1569,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar5.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar5.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Matthew Taylor</h6>
@@ -1677,7 +1677,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">David Wilson</h6>
@@ -1785,7 +1785,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Anthony Thomas</h6>
@@ -1893,7 +1893,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Christopher Moore</h6>
@@ -2001,7 +2001,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Emma Smith</h6>
@@ -2109,7 +2109,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">James Anderson</h6>
@@ -2217,7 +2217,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">William Johnson</h6>
@@ -2325,7 +2325,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Benjamin Martinez</h6>
@@ -2433,7 +2433,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Michael Davis</h6>
@@ -2541,7 +2541,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar5.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar5.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Matthew Taylor</h6>
@@ -2649,7 +2649,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">David Wilson</h6>
@@ -2757,7 +2757,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Anthony Thomas</h6>
@@ -2865,7 +2865,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Christopher Moore</h6>
@@ -2973,7 +2973,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center mw-175px">
                           <div className="avatar avatar-xs rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Emma Smith</h6>
@@ -3085,7 +3085,7 @@ export default function Page() {
 
         </div>
 
-        <div className="modal fade" id="addEmployeeModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="addEmployeeModal" tabIndex="-1" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header py-3">
@@ -3111,8 +3111,8 @@ export default function Page() {
                   <div className="row">
                     <div className="col-md-6 mb-3">
                       <label htmlFor="department" className="form-label">Department</label>
-                      <select className="form-select" id="department">
-                        <option selected disabled>Select Department</option>
+                      <select defaultValue="Select Department" className="form-select" id="department">
+                        <option disabled>Select Department</option>
                         <option>HR</option>
                         <option>Development</option>
                         <option>Sales</option>

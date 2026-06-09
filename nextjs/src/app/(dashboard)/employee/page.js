@@ -42,7 +42,7 @@ export default function Page() {
         <div className="card d-flex flex-row flex-wrap align-items-center h-auto mb-5">
           <ul className="nav nav-underline me-auto px-3 gap-2">
             <li className="nav-item">
-              <a className="nav-link border-3 py-3 px-2 active" href="javascript:void(0);">Employee</a>
+              <a className="nav-link border-3 py-3 px-2 active" href="javascript:void(0)">Employee</a>
             </li>
             <li className="nav-item">
               <a className="nav-link border-3 py-3 px-2" href="/leave">Leave Request</a>
@@ -80,10 +80,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -92,7 +92,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar3.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar3.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Emma Smith</h5>
                   <p className="text-primary mb-0">UI/UX Designer</p>
@@ -135,10 +135,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -147,7 +147,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar1.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar1.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">William Johnson</h5>
                   <p className="text-primary mb-0">Front-End Developer</p>
@@ -190,10 +190,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -202,7 +202,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar8.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar8.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Benjamin Martinez</h5>
                   <p className="text-primary mb-0">Web Designer</p>
@@ -245,10 +245,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -257,7 +257,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar7.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar7.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Olivia Clark</h5>
                   <p className="text-primary mb-0">Data Analyst</p>
@@ -300,10 +300,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -312,7 +312,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar5.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar5.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Ava Lewis</h5>
                   <p className="text-primary mb-0">Front-End Developer</p>
@@ -355,10 +355,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -367,7 +367,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar2.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar2.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Isabella Walker</h5>
                   <p className="text-primary mb-0">UI/UX Designer</p>
@@ -410,10 +410,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -422,7 +422,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar6.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar6.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Alexander Brown</h5>
                   <p className="text-primary mb-0">Data Analyst</p>
@@ -465,10 +465,10 @@ export default function Page() {
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                       </li>
                     </ul>
                   </div>
@@ -477,7 +477,7 @@ export default function Page() {
               <div className="card-body p-2 pt-0">
                 <div className="text-center mb-3">
                   <div className="avatar avatar-xxl rounded-4 mx-auto mb-3">
-                    <img src="assets/images/avatar/avatar4.webp" alt="" />
+                    <img src="/assets/images/avatar/avatar4.webp" alt="" />
                   </div>
                   <h5 className="mb-0 fw-bold">Sophia Hall</h5>
                   <p className="text-primary mb-0">Front-End Developer</p>
@@ -516,22 +516,22 @@ export default function Page() {
             <nav aria-label="pagination" className="float-end">
               <ul className="pagination">
                 <li className="page-item">
-                  <a className="page-link" href="javascript:void(0);" aria-label="Previous">
+                  <a className="page-link" href="javascript:void(0)" aria-label="Previous">
                     <i className="fi fi-rr-angle-left me-1"></i>
                     Previous
                   </a>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="javascript:void(0);">1</a>
+                  <a className="page-link" href="javascript:void(0)">1</a>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="javascript:void(0);">2</a>
+                  <a className="page-link" href="javascript:void(0)">2</a>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="javascript:void(0);">3</a>
+                  <a className="page-link" href="javascript:void(0)">3</a>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="javascript:void(0);" aria-label="Next">
+                  <a className="page-link" href="javascript:void(0)" aria-label="Next">
                     Next
                     <i className="fi fi-rr-angle-right ms-1"></i>
                   </a>
@@ -541,7 +541,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="modal fade" id="addEmployeeModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="addEmployeeModal" tabIndex="-1" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header py-3">
@@ -567,8 +567,8 @@ export default function Page() {
                   <div className="row">
                     <div className="col-md-6 mb-3">
                       <label htmlFor="department" className="form-label">Department</label>
-                      <select className="form-select" id="department">
-                        <option selected disabled>Select Department</option>
+                      <select defaultValue="Select Department" className="form-select" id="department">
+                        <option disabled>Select Department</option>
                         <option>HR</option>
                         <option>Development</option>
                         <option>Sales</option>

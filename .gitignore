@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+nextjs/scratch/
+.env*
+.DS_Store
+*.zip
+*.zip.tmp

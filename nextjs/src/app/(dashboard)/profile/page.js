@@ -43,9 +43,9 @@ export default function Page() {
                   <div className="d-flex align-items-center">
                     <div className="position-relative">
                       <div className="avatar avatar-xxl rounded-circle">
-                        <img src="assets/images/avatar/avatar3.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar3.webp" alt="" />
                       </div>
-                      <a href="javascript:void(0);" className="avatar avatar-xxs bg-primary rounded-circle text-white position-absolute top-0 end-0">
+                      <a href="javascript:void(0)" className="avatar avatar-xxs bg-primary rounded-circle text-white position-absolute top-0 end-0">
                         <i className="fi fi-rr-camera"></i>
                       </a>
                     </div>
@@ -109,31 +109,31 @@ export default function Page() {
                   </div>
                   <div className="card-body">
                     <div className="d-flex flex-wrap gap-2">
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-facebook waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-facebook waves-effect waves-light">
                         <i className="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-twitter waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-twitter waves-effect waves-light">
                         <i className="fa-brands fa-x-twitter"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-instagram waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-instagram waves-effect waves-light">
                         <i className="fa-brands fa-instagram"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-youtube waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-youtube waves-effect waves-light">
                         <i className="fa-brands fa-youtube"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-linkedin waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-linkedin waves-effect waves-light">
                         <i className="fa-brands fa-linkedin"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-pinterest waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-pinterest waves-effect waves-light">
                         <i className="fa-brands fa-pinterest"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-telegram waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-telegram waves-effect waves-light">
                         <i className="fa-brands fa-telegram"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-tiktok waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-tiktok waves-effect waves-light">
                         <i className="fa-brands fa-tiktok"></i>
                       </a>
-                      <a href="javascript:void(0);" className="btn btn-icon btn-sm btn-subtle-reddit waves-effect waves-light">
+                      <a href="javascript:void(0)" className="btn btn-icon btn-sm btn-subtle-reddit waves-effect waves-light">
                         <i className="fa-brands fa-reddit"></i>
                       </a>
                     </div>

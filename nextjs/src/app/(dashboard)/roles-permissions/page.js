@@ -43,19 +43,19 @@ export default function Page() {
               <div className="card-header">
                 <ul className="nav nav-underline card-header-tabs" id="myTab" role="tablist">
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link active" id="admin-tab" data-bs-toggle="tab" data-bs-target="#admin" type="button" role="tab" aria-controls="admin" aria-selected="false" tabindex="-1">
+                    <button className="nav-link active" id="admin-tab" data-bs-toggle="tab" data-bs-target="#admin" type="button" role="tab" aria-controls="admin" aria-selected="false" tabIndex="-1">
                       <i className="fi fi-rr-star scale-1x me-1"></i>
                       Super Admin
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="manager-tab" data-bs-toggle="tab" data-bs-target="#manager" type="button" role="tab" aria-controls="manager" aria-selected="false" tabindex="-1">
+                    <button className="nav-link" id="manager-tab" data-bs-toggle="tab" data-bs-target="#manager" type="button" role="tab" aria-controls="manager" aria-selected="false" tabIndex="-1">
                       <i className="fi fi-rr-admin-alt scale-1x me-1"></i>
                       Manager
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="editor-tab" data-bs-toggle="tab" data-bs-target="#editor" type="button" role="tab" aria-controls="editor" aria-selected="false" tabindex="-1">
+                    <button className="nav-link" id="editor-tab" data-bs-toggle="tab" data-bs-target="#editor" type="button" role="tab" aria-controls="editor" aria-selected="false" tabIndex="-1">
                       <i className="fi fi-rr-vector-alt scale-1x me-1"></i>
                       Editor
                     </button>
@@ -76,39 +76,39 @@ export default function Page() {
               </div>
               <div className="card-body">
                 <div className="tab-content">
-                  <div className="tab-pane fade show active" id="admin" role="tabpanel" aria-labelledby="admin-tab" tabindex="0">
+                  <div className="tab-pane fade show active" id="admin" role="tabpanel" aria-labelledby="admin-tab" tabIndex="0">
                     <h6 className="mb-3">User Management</h6>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Create User</label>
                     </div>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Edit User</label>
                     </div>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Delete User</label>
                     </div>
                     <hr />
                     <h6 className="mb-3">System Settings</h6>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Change System Settings</label>
                     </div>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Manage Roles & Permissions</label>
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="manager" role="tabpanel" aria-labelledby="manager-tab" tabindex="0">
+                  <div className="tab-pane fade" id="manager" role="tabpanel" aria-labelledby="manager-tab" tabIndex="0">
                     <h6 className="mb-3">Project Management</h6>
                     <div className="form-check mb-2 mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Create Project</label>
                     </div>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Edit Project</label>
                     </div>
                     <div className="form-check mb-2">
@@ -118,7 +118,7 @@ export default function Page() {
                     <hr />
                     <h6 className="mb-3">Team Management</h6>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Assign Tasks</label>
                     </div>
                     <div className="form-check mb-2">
@@ -126,14 +126,14 @@ export default function Page() {
                       <label className="form-check-label">Remove Team Members</label>
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="editor" role="tabpanel" aria-labelledby="editor-tab" tabindex="0">
+                  <div className="tab-pane fade" id="editor" role="tabpanel" aria-labelledby="editor-tab" tabIndex="0">
                     <h6 className="mb-3">Content</h6>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Create Content</label>
                     </div>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">Edit Content</label>
                     </div>
                     <div className="form-check mb-2">
@@ -151,14 +151,14 @@ export default function Page() {
                       <label className="form-check-label">Delete Media</label>
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="viewer" role="tabpanel" aria-labelledby="viewer-tab" tabindex="0">
+                  <div className="tab-pane fade" id="viewer" role="tabpanel" aria-labelledby="viewer-tab" tabIndex="0">
                     <h6 className="mb-3">Access</h6>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">View Dashboard</label>
                     </div>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked />
+                      <input className="form-check-input" type="checkbox" defaultChecked />
                       <label className="form-check-label">View Reports</label>
                     </div>
                     <div className="form-check mb-2">
@@ -166,10 +166,10 @@ export default function Page() {
                       <label className="form-check-label">Export Reports</label>
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="guest" role="tabpanel" aria-labelledby="guest-tab" tabindex="0">
+                  <div className="tab-pane fade" id="guest" role="tabpanel" aria-labelledby="guest-tab" tabIndex="0">
                     <h6 className="mb-3">Access</h6>
                     <div className="form-check mb-2">
-                      <input className="form-check-input" type="checkbox" checked disabled />
+                      <input className="form-check-input" type="checkbox" defaultChecked disabled />
                       <label className="form-check-label">Read-Only Access</label>
                     </div>
                     <div className="form-check mb-2">
@@ -184,7 +184,7 @@ export default function Page() {
         </div>
 
         {/* Add Role Modal */}
-        <div className="modal fade" id="addRoleModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="addRoleModal" tabIndex="-1" aria-hidden="true">
           <div className="modal-dialog">
             <form className="modal-content">
               <div className="modal-header">

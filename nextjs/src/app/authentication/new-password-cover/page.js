@@ -104,7 +104,7 @@ export default function NewPasswordCover() {
                       required
                     />
                     <label className="form-check-label" htmlFor="termsConditions">
-                      I Agree & <a href="javascript:void(0);">Terms and conditions.</a>
+                      I Agree & <a href="javascript:void(0)">Terms and conditions.</a>
                     </label>
                   </div>
                 </div>

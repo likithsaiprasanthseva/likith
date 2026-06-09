@@ -116,7 +116,7 @@ export default function RegisterCover() {
                       required
                     />
                     <label className="form-check-label" htmlFor="termsConditions">
-                      I agree to <a href="javascript:void(0);">privacy policy & terms</a>
+                      I agree to <a href="javascript:void(0)">privacy policy & terms</a>
                     </label>
                   </div>
                 </div>
@@ -135,19 +135,19 @@ export default function RegisterCover() {
                 </div>
                 <div className="d-flex gap-2 justify-content-center mt-5">
                   <a
-                    href="javascript:void(0);"
+                    href="javascript:void(0)"
                     className="btn btn-icon btn-subtle-facebook rounded-circle waves-effect waves-light"
                   >
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
                   <a
-                    href="javascript:void(0);"
+                    href="javascript:void(0)"
                     className="btn btn-icon btn-subtle-twitter rounded-circle waves-effect waves-light"
                   >
                     <i className="fa-brands fa-x-twitter"></i>
                   </a>
                   <a
-                    href="javascript:void(0);"
+                    href="javascript:void(0)"
                     className="btn btn-icon btn-subtle-github rounded-circle waves-effect waves-light"
                   >
                     <i className="fa-brands fa-github"></i>

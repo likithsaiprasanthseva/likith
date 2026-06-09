@@ -34,7 +34,7 @@ export default function ForgotPasswordFrame() {
             >
               <div className="clearfix">
                 <div className="auth-content">
-                  <h1 class="display-6 text-white fw-bold">Welcome Back!</h1>
+                  <h1 className="display-6 text-white fw-bold">Welcome Back!</h1>
                   <p className="text-white">
                     Our HR Management & Administration ensure your organization runs smoothly,
                     focusing on people, compliance, and efficiency to drive growth and employee

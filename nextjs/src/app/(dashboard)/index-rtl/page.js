@@ -14,6 +14,12 @@ export default function Page() {
     htmlElement.setAttribute("dir", "rtl");
     htmlElement.setAttribute("lang", "ar");
 
+    // Disable LTR stylesheet
+    const mainStylesheet = document.getElementById("gxon-main-stylesheet");
+    if (mainStylesheet) {
+      mainStylesheet.disabled = true;
+    }
+
     // Add RTL stylesheet
     const rtlLink = document.createElement("link");
     rtlLink.rel = "stylesheet";
@@ -44,6 +50,11 @@ export default function Page() {
         htmlElement.setAttribute("lang", oldLang);
       } else {
         htmlElement.setAttribute("lang", "en");
+      }
+
+      // Re-enable LTR stylesheet
+      if (mainStylesheet) {
+        mainStylesheet.disabled = false;
       }
 
       // Remove RTL stylesheet
@@ -181,7 +192,7 @@ export default function Page() {
                   <h6 className="card-title">Create Announcement</h6>
                   <p>Make a announcement to your employee</p>
                 </div>
-                <img src="assets/images/media/svg/media1.svg" alt="" className="position-absolute bottom-0 end-0 z-n1" />
+                <img src="/assets/images/media/svg/media1.svg" alt="" className="position-absolute bottom-0 end-0 z-n1" />
               </div>
               <div className="card-footer border-0 pt-0">
                 <a href="/calendar" className="btn btn-outline-light waves-effect btn-shadow">Create Now</a>
@@ -274,7 +285,7 @@ export default function Page() {
                 <ul className="list-group list-group-hover list-group-smooth list-group-unlined list-group-outer">
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="avatar rounded-circle me-1">
-                      <img src="assets/images/avatar/avatar1.webp" alt="" />
+                      <img src="/assets/images/avatar/avatar1.webp" alt="" />
                     </div>
                     <div className="ms-2 me-auto">
                       <h6 className="mb-0">Sophia Hall</h6>
@@ -286,20 +297,20 @@ export default function Page() {
                       </button>
                       <ul className="dropdown-menu dropdown-menu-end">
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="avatar rounded-circle me-1">
-                      <img src="assets/images/avatar/avatar2.webp" alt="" />
+                      <img src="/assets/images/avatar/avatar2.webp" alt="" />
                     </div>
                     <div className="ms-2 me-auto">
                       <h6 className="mb-0">Emma Smith</h6>
@@ -311,20 +322,20 @@ export default function Page() {
                       </button>
                       <ul className="dropdown-menu dropdown-menu-end">
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="avatar rounded-circle me-1">
-                      <img src="assets/images/avatar/avatar3.webp" alt="" />
+                      <img src="/assets/images/avatar/avatar3.webp" alt="" />
                     </div>
                     <div className="ms-2 me-auto">
                       <h6 className="mb-0">Olivia Clark</h6>
@@ -336,20 +347,20 @@ export default function Page() {
                       </button>
                       <ul className="dropdown-menu dropdown-menu-end">
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Rejected</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Rejected</a>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="avatar rounded-circle me-1">
-                      <img src="assets/images/avatar/avatar4.webp" alt="" />
+                      <img src="/assets/images/avatar/avatar4.webp" alt="" />
                     </div>
                     <div className="ms-2 me-auto">
                       <h6 className="mb-0">Ava Lewis</h6>
@@ -361,20 +372,20 @@ export default function Page() {
                       </button>
                       <ul className="dropdown-menu dropdown-menu-end">
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                         </li>
                       </ul>
                     </div>
                   </li>
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="avatar rounded-circle me-1">
-                      <img src="assets/images/avatar/avatar5.webp" alt="" />
+                      <img src="/assets/images/avatar/avatar5.webp" alt="" />
                     </div>
                     <div className="ms-2 me-auto">
                       <h6 className="mb-0">Isabella Walker</h6>
@@ -386,13 +397,13 @@ export default function Page() {
                       </button>
                       <ul className="dropdown-menu dropdown-menu-end">
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                          <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                         </li>
                       </ul>
                     </div>
@@ -432,13 +443,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -456,13 +467,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -480,13 +491,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -504,13 +515,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -528,13 +539,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -552,13 +563,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -576,13 +587,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -600,13 +611,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -624,13 +635,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -648,13 +659,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -672,13 +683,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -696,13 +707,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -720,13 +731,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -744,13 +755,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -768,13 +779,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -792,13 +803,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -816,13 +827,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -840,13 +851,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light" data-selected="true">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light" data-selected="true">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -864,13 +875,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary" data-selected="true">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary" data-selected="true">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -888,13 +899,13 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-outline-light">Pending</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-outline-light">Pending</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-primary" data-selected="true">Approved</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-primary" data-selected="true">Approved</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);" data-className="btn-subtle-secondary">Rejected</a>
+                              <a className="dropdown-item" href="javascript:void(0)" data-class="btn-subtle-secondary">Rejected</a>
                             </li>
                           </ul>
                         </div>
@@ -916,13 +927,13 @@ export default function Page() {
                   </button>
                   <ul className="dropdown-menu dropdown-menu-end">
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Onsite</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Onsite</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Remote</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Remote</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Hybrid</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Hybrid</a>
                     </li>
                   </ul>
                 </div>
@@ -969,13 +980,13 @@ export default function Page() {
                     </div>
                     <div className="avatar-group">
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar1.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar1.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar2.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar2.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar3.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar3.webp" alt="" />
                       </div>
                     </div>
                   </li>
@@ -987,16 +998,16 @@ export default function Page() {
                     </div>
                     <div className="avatar-group">
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar4.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar4.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar5.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar5.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar1.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar1.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar2.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar2.webp" alt="" />
                       </div>
                     </div>
                   </li>
@@ -1008,13 +1019,13 @@ export default function Page() {
                     </div>
                     <div className="avatar-group">
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar3.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar3.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar4.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar4.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar5.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar5.webp" alt="" />
                       </div>
                     </div>
                   </li>
@@ -1026,10 +1037,10 @@ export default function Page() {
                     </div>
                     <div className="avatar-group">
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar1.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar1.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar2.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar2.webp" alt="" />
                       </div>
                     </div>
                   </li>
@@ -1041,16 +1052,16 @@ export default function Page() {
                     </div>
                     <div className="avatar-group">
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar5.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar5.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar4.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar4.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar3.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar3.webp" alt="" />
                       </div>
                       <div className="avatar avatar-xs rounded-circle border border-2 border-white">
-                        <img src="assets/images/avatar/avatar2.webp" alt="" />
+                        <img src="/assets/images/avatar/avatar2.webp" alt="" />
                       </div>
                     </div>
                   </li>
@@ -1084,17 +1095,17 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <div className="text-2xs d-flex gap-1 align-items-center">
-                      <img src="assets/images/icons/google-meet.svg" alt="" />
+                      <img src="/assets/images/icons/google-meet.svg" alt="" />
                       <span>On Google Meet</span>
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1114,17 +1125,17 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <div className="text-2xs d-flex gap-1 align-items-center">
-                      <img src="assets/images/icons/google-meet.svg" alt="" />
+                      <img src="/assets/images/icons/google-meet.svg" alt="" />
                       <span>On Google Meet</span>
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1144,17 +1155,17 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <div className="text-2xs d-flex gap-1 align-items-center">
-                      <img src="assets/images/icons/google-meet.svg" alt="" />
+                      <img src="/assets/images/icons/google-meet.svg" alt="" />
                       <span>On Google Meet</span>
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1174,17 +1185,17 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <div className="text-2xs d-flex gap-1 align-items-center">
-                      <img src="assets/images/icons/google-meet.svg" alt="" />
+                      <img src="/assets/images/icons/google-meet.svg" alt="" />
                       <span>On Google Meet</span>
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1204,17 +1215,17 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <div className="text-2xs d-flex gap-1 align-items-center">
-                      <img src="assets/images/icons/google-meet.svg" alt="" />
+                      <img src="/assets/images/icons/google-meet.svg" alt="" />
                       <span>On Google Meet</span>
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1239,16 +1250,16 @@ export default function Page() {
                   </button>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Last Month</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Last Month</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Category</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Category</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Published</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Published</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="javascript:void(0);">Date Modifed</a>
+                      <a className="dropdown-item" href="javascript:void(0)">Date Modifed</a>
                     </li>
                   </ul>
                 </div>
@@ -1267,7 +1278,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center">
                           <div className="avatar rounded-circle">
-                            <img src="assets/images/avatar/avatar1.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar1.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Olivia Clark</h6>
@@ -1285,10 +1296,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -1298,7 +1309,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center">
                           <div className="avatar rounded-circle">
-                            <img src="assets/images/avatar/avatar2.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar2.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Michael Davis</h6>
@@ -1316,10 +1327,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -1329,7 +1340,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center">
                           <div className="avatar rounded-circle">
-                            <img src="assets/images/avatar/avatar3.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar3.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">Michael Davis</h6>
@@ -1347,10 +1358,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -1360,7 +1371,7 @@ export default function Page() {
                       <td>
                         <div className="d-flex align-items-center">
                           <div className="avatar rounded-circle">
-                            <img src="assets/images/avatar/avatar4.webp" alt="" />
+                            <img src="/assets/images/avatar/avatar4.webp" alt="" />
                           </div>
                           <div className="ms-2 me-auto">
                             <h6 className="mb-0">David Wilson</h6>
@@ -1378,10 +1389,10 @@ export default function Page() {
                           </button>
                           <ul className="dropdown-menu dropdown-menu-end">
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Edit</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Edit</a>
                             </li>
                             <li>
-                              <a className="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a className="dropdown-item" href="javascript:void(0)">Delete</a>
                             </li>
                           </ul>
                         </div>
@@ -1397,7 +1408,7 @@ export default function Page() {
             <div className="card">
               <div className="card-header d-flex align-items-center justify-content-between border-0 pb-0">
                 <h6 className="card-title mb-0">Attendance Rate</h6>
-                <a href="javascript:void(0);" className="btn btn-sm btn-outline-light waves-effect btn-shadow">Download Report</a>
+                <a href="javascript:void(0)" className="btn btn-sm btn-outline-light waves-effect btn-shadow">Download Report</a>
               </div>
               <div className="card-body px-1 py-2">
                 <div id="chartAttendanceRate"></div>
@@ -1410,23 +1421,23 @@ export default function Page() {
               <div className="card-header d-flex flex-wrap gap-3 align-items-center justify-content-between border-0 pb-0">
                 <h6 className="card-title mb-0">Interview Schedule</h6>
                 <div className="clearfix d-flex align-items-center">
-                  <a href="javascript:void(0);" className="btn-link me-4">View All</a>
+                  <a href="javascript:void(0)" className="btn-link me-4">View All</a>
                   <div className="dropdown">
                     <button className="btn dropdown-toggle btn-white btn-shadow waves-effect btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Last Month
                     </button>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Last Month</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Last Month</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Category</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Category</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Published</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Published</a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="javascript:void(0);">Date Modifed</a>
+                        <a className="dropdown-item" href="javascript:void(0)">Date Modifed</a>
                       </li>
                     </ul>
                   </div>
@@ -1438,7 +1449,7 @@ export default function Page() {
                     <ul className="list-group list-group-smooth list-group-unlined">
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">William Johnson</h6>
@@ -1448,7 +1459,7 @@ export default function Page() {
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">Alexander Brown</h6>
@@ -1458,7 +1469,7 @@ export default function Page() {
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">Michael Davis</h6>
@@ -1468,7 +1479,7 @@ export default function Page() {
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">David Wilson</h6>
@@ -1482,7 +1493,7 @@ export default function Page() {
                     <ul className="list-group list-group-smooth list-group-unlined">
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar4.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar4.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">David Wilson</h6>
@@ -1492,7 +1503,7 @@ export default function Page() {
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar1.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar1.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">William Johnson</h6>
@@ -1502,7 +1513,7 @@ export default function Page() {
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar2.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar2.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">Alexander Brown</h6>
@@ -1512,7 +1523,7 @@ export default function Page() {
                       </li>
                       <li className="list-group-item d-flex justify-content-between align-items-center mb-2">
                         <div className="avatar rounded-circle me-1">
-                          <img src="assets/images/avatar/avatar3.webp" alt="" />
+                          <img src="/assets/images/avatar/avatar3.webp" alt="" />
                         </div>
                         <div className="ms-2 me-auto">
                           <h6 className="mb-0">Michael Davis</h6>
@@ -1532,7 +1543,7 @@ export default function Page() {
               <div className="card-header d-flex align-items-center justify-content-between border-0 pb-0">
                 <h6 className="card-title mb-0">Task Update</h6>
                 <div className="clearfix">
-                  <a href="javascript:void(0);" className="btn-link">View All</a>
+                  <a href="javascript:void(0)" className="btn-link">View All</a>
                   <button type="button" className="btn btn-sm btn-outline-light btn-shadow text-primary waves-effect ms-3" data-bs-toggle="modal" data-bs-target="#todoTaskModal">
                     <i className="fi fi-rr-plus text-2xs me-1"></i> New Task
                   </button>
@@ -1569,7 +1580,7 @@ export default function Page() {
                         <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)" />
                       </svg>
                     </span>
-                    <input className="form-check-input todo-checkbox check-dark" type="checkbox" checked />
+                    <input className="form-check-input todo-checkbox check-dark" type="checkbox" defaultChecked />
                     <span className="form-label mb-0">Develop new marketing strategy</span>
                     <span className="todo-time text-body">04:25PM</span>
                     <button type="button" className="btn btn-action-gray btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
@@ -1623,7 +1634,7 @@ export default function Page() {
                         <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)" />
                       </svg>
                     </span>
-                    <input className="form-check-input todo-checkbox" type="checkbox" checked />
+                    <input className="form-check-input todo-checkbox" type="checkbox" defaultChecked />
                     <span className="form-label mb-0">Review employee performance</span>
                     <span className="todo-time text-body text-body">04:25PM</span>
                     <button type="button" className="btn btn-action-gray btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
@@ -1641,7 +1652,7 @@ export default function Page() {
                         <path d="M4.7618 15.3571C5.49818 15.3571 6.09513 14.7601 6.09513 14.0238C6.09513 13.2874 5.49818 12.6904 4.7618 12.6904C4.02542 12.6904 3.42847 13.2874 3.42847 14.0238C3.42847 14.7601 4.02542 15.3571 4.7618 15.3571Z" fill="var(--bs-body-color)" />
                       </svg>
                     </span>
-                    <input className="form-check-input todo-checkbox check-success" type="checkbox" checked />
+                    <input className="form-check-input todo-checkbox check-success" type="checkbox" defaultChecked />
                     <span className="form-label mb-0">Reply to customer emails</span>
                     <span className="todo-time text-body">04:25PM</span>
                     <button type="button" className="btn btn-action-gray btn-sm btn-icon waves-effect waves-light item-delete ms-auto">
@@ -1650,7 +1661,7 @@ export default function Page() {
                   </li>
                 </ul>
               </div>
-              <div className="modal fade" id="todoTaskModal" tabindex="-1" aria-hidden="true">
+              <div className="modal fade" id="todoTaskModal" tabIndex="-1" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered">
                   <div className="modal-content">
                     <div className="modal-header py-3">
@@ -1686,7 +1697,7 @@ export default function Page() {
 
         </div>
 
-        <div className="modal fade" id="addEmployeeModal" tabindex="-1" aria-hidden="true">
+        <div className="modal fade" id="addEmployeeModal" tabIndex="-1" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header py-3">
@@ -1712,8 +1723,8 @@ export default function Page() {
                   <div className="row">
                     <div className="col-md-6 mb-3">
                       <label htmlFor="department" className="form-label">Department</label>
-                      <select className="form-select" id="department">
-                        <option selected disabled>Select Department</option>
+                      <select defaultValue="Select Department" className="form-select" id="department">
+                        <option disabled>Select Department</option>
                         <option>HR</option>
                         <option>Development</option>
                         <option>Sales</option>
